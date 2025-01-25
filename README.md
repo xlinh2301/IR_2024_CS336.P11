@@ -62,7 +62,7 @@ IR
 - Conda for environment management
 - Faiss GPU if needed
 
-## Setup for backend
+## Setup for Backend
 
 ### 1. Clone the Repository
 
@@ -92,5 +92,10 @@ conda install -c conda-forge -c nvidia faiss-gpu
 uvicorn main:app --reload
 ```
 
+## Setup for Frontend
 
+```bash
+cd App/AIC2024
+npm install
+```
 
