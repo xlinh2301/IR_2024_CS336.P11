@@ -1,0 +1,6 @@
+app/data/
+app/data/final_index.faiss
+app/services/_pycache_/
+app/models/_pycache_/
+app/_pycache_/
+__pycache__/

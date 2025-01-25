@@ -1,0 +1,15 @@
+fastapi==0.112.0
+uvicorn==0.30.5
+pydantic==2.5.3
+numpy==1.26.4
+torch==2.3.1 
+torchvision==0.18.1
+openai-clip
+googletrans==4.0.0-rc1
+langdetect==1.0.9
+pillow==10.3.0
+matplotlib==3.9.1.post1
+opencv-python==4.10.0.84
+elasticsearch==7.0.1
+rapidfuzz==3.9.6
+PyDrive

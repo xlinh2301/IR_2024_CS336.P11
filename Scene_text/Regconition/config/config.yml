@@ -1,0 +1,65 @@
+aug:
+  image_aug: true
+  masked_language_model: true
+backbone: vgg19_bn
+cnn:
+  hidden: 256
+  ks:
+  - - 2
+    - 2
+  - - 2
+    - 2
+  - - 2
+    - 1
+  - - 2
+    - 1
+  - - 1
+    - 1
+  ss:
+  - - 2
+    - 2
+  - - 2
+    - 2
+  - - 2
+    - 1
+  - - 2
+    - 1
+  - - 1
+    - 1
+dataloader:
+  num_workers: 4
+  pin_memory: true
+dataset:
+  data_root: /kaggle/working/vietocr/data
+  image_height: 32
+  image_max_width: 512
+  image_min_width: 32
+  name: data
+  train_annotation: label_train.txt
+  valid_annotation: label_val.txt
+device: cuda:0
+optimizer:
+  max_lr: 0.001
+  pct_start: 0.1
+predictor:
+  beamsearch: false
+pretrain: https://vocr.vn/data/vietocr/vgg_seq2seq.pth
+quiet: false
+seq_modeling: seq2seq
+trainer:
+  batch_size: 712
+  checkpoint: ./checkpoint/transformerocr_checkpoint.pth
+  export: ./weights/transformerocr.pth
+  iters: 20000
+  log: ./train.log
+  metrics: 10000
+  print_every: 200
+  valid_every: 10000
+transformer:
+  decoder_embedded: 256
+  decoder_hidden: 256
+  dropout: 0.1
+  encoder_hidden: 256
+  img_channel: 256
+vocab: aAàÀảẢãÃáÁạẠăĂằẰẳẲẵẴắẮặẶâÂầẦẩẨẫẪấẤậẬbBcCdDđĐeEèÈẻẺẽẼéÉẹẸêÊềỀểỂễỄếẾệỆfFgGhHiIìÌỉỈĩĨíÍịỊjJkKlLmMnNoOòÒỏỎõÕóÓọỌôÔồỒổỔỗỖốỐộỘơƠờỜởỞỡỠớỚợỢpPqQrRsStTuUùÙủỦũŨúÚụỤưƯừỪửỬữỮứỨựỰvVwWxXyYỳỲỷỶỹỸýÝỵỴzZ0123456789!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~°
+weights: https://vocr.vn/data/vietocr/vgg_seq2seq.pth

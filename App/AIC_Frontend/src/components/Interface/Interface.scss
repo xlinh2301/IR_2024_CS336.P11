@@ -1,0 +1,44 @@
+.interface-main {
+  padding-left: 18%;
+
+  .interface {
+    font-size: 28px; /* Slightly larger font for better visibility */
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+    color: #444; /* Softer text color for better readability */
+    border-bottom: 3px solid #007bff; /* Accent color for emphasis */
+    background-color: #f9f9f9; /* Subtle background for separation */
+    border-radius: 8px; /* Rounded edges for modern design */
+    margin-bottom: 20px; /* Space between header and content */
+  }
+
+  .result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 20px;
+
+    .custom-class {
+      padding: 10px;
+      border: 1px solid #ddd; /* Subtle border for definition */
+      border-radius: 8px; /* Rounded corners */
+      background-color: #fff; /* White background for card effect */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+
+      &:hover {
+        transform: translateY(-5px); /* Lift effect on hover */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+      }
+    }
+
+    .info {
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      color: #555; /* Muted text color */
+      line-height: 1.6; /* Improved readability */
+    }
+  }
+}

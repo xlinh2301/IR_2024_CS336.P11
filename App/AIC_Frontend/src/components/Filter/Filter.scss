@@ -1,0 +1,56 @@
+.filter {
+  padding: 12px 16px 16px;
+
+  .wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .form-control,
+    .form-select {
+      width: 80%;
+      margin: 10px;
+    }
+  }
+
+  .btn-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+
+    .btn {
+      width: 30%;
+    }
+  }
+
+  .data-time {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 12px;
+
+    .wrap {
+      width: 80%;
+
+      .form-control,
+      .form-select {
+        margin: 0;
+      }
+    }
+
+    .btn {
+      width: 18%;
+      height: 50%;
+      transform: translateY(84%);
+    }
+  }
+
+  .obj-filter {
+    .form-control,
+    .form-select {
+      margin: 0;
+    }
+  }
+}
