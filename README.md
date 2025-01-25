@@ -1,4 +1,25 @@
-# Backend API
+<!-- Banner -->
+<p align="center">
+  <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: none;">
+    <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
+  </a>
+</p>
+
+<h1 align="center"><b>Information Retrieval</b></h>
+
+# THÀNH VIÊN NHÓM
+| STT    | MSSV          | Họ và Tên              |Chức vụ   |
+| ------ |:-------------:| ----------------------:|----------:
+| 1      | 22520775      | Đỗ Trọng Khánh         |Nhóm trưởng|
+| 2      | 22521015      | Huỳnh Văn Nhật         |Thành viên |
+| 3      | 225201581     | Nguyễn Thanh Trường    |Thành viên |
+
+# GIỚI THIỆU MÔN HỌC
+* **Tên môn học:** Information Retrieval.
+* **Mã môn học:** CS336.
+* **Mã lớp:** CS336.P11.
+* **Năm học:** HK1 (2024 - 2025).
+* **Giảng viên**: Th.S Đỗ Văn Tiến.
 
 ## Overview
 
