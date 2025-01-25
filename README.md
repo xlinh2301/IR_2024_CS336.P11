@@ -8,11 +8,39 @@
 <h1 align="center"><b>Information Retrieval</b></h>
 
 # THÀNH VIÊN NHÓM
-| STT    | MSSV          | Họ và Tên              |Chức vụ   |
-| ------ |:-------------:| ----------------------:|----------:
-| 1      | 22520775      | Đỗ Trọng Khánh         |Nhóm trưởng|
-| 2      | 22521015      | Huỳnh Văn Nhật         |Thành viên |
-| 3      | 225201581     | Nguyễn Thanh Trường    |Thành viên |
+<!-- Bảng thành viên nhóm -->
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>STT</th>
+        <th>MSSV</th>
+        <th>Họ và Tên</th>
+        <th>Chức vụ</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>22520775</td>
+        <td>Đỗ Trọng Khánh</td>
+        <td>Nhóm trưởng</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>22521015</td>
+        <td>Huỳnh Văn Nhật</td>
+        <td>Thành viên</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>225201581</td>
+        <td>Nguyễn Thanh Trường</td>
+        <td>Thành viên</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 # GIỚI THIỆU MÔN HỌC
 * **Tên môn học:** Information Retrieval.
