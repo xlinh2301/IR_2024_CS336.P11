@@ -7,8 +7,6 @@
 
 <h1 align="center"><b>Information Retrieval</b></h>
 
-# TEAM MEMBERS
-
 <div align="center">
   <table>
     <thead>
