@@ -7,8 +7,8 @@
 
 <h1 align="center"><b>Information Retrieval</b></h>
 
-# THÀNH VIÊN NHÓM
-<!-- Bảng thành viên nhóm -->
+# TEAM MEMBERS
+
 <div align="center">
   <table>
     <thead>
@@ -42,12 +42,12 @@
   </table>
 </div>
 
-# GIỚI THIỆU MÔN HỌC
-* **Tên môn học:** Information Retrieval.
-* **Mã môn học:** CS336.
-* **Mã lớp:** CS336.P11.
-* **Năm học:** HK1 (2024 - 2025).
-* **Giảng viên**: Th.S Đỗ Văn Tiến.
+# COURSE INTRODUCTION
+* **Course Name:** Information Retrieval.
+* **Course Code:** CS336.
+* **Class Code:** CS336.P11.
+* **Academic Year:** HK1 (2024 - 2025).
+* **Lecturer**: Th.S Đỗ Văn Tiến.
 
 ## Overview
 
