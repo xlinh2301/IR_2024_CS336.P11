@@ -5,7 +5,7 @@
   </a>
 </p>
 
-<h1 align="center"><b>Information Retrieval</b></h>
+<h1 align="center"><b>Information Retrieval</b></h1>
 
 <div align="center">
   <table>
