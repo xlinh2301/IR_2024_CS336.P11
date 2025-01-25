@@ -16,25 +16,25 @@ This repository contains the sysytem for a Multimodal Video Retrieval. The backe
 ## Project Folder Structure
 
 Below is a brief description of the project's folder structure:
+``` bash
 IR
-
-├── App 
-│ ├── AIC_Backend
-│ ├── AIC_Frontend
+├── App
+│   ├── AIC_Backend
+│   ├── AIC_Frontend
 ├── ASR
-│ ├── asr-feature-extract.ipynb
+│   ├── asr-feature-extract.ipynb
 ├── Extract_frame
-│ ├── extract_frame.py
-│ ├── extract_representative_frames.py
+│   ├── extract_frame.py
+│   ├── extract_representative_frames.py
 ├── Load_to_elastic
-│ ├── load-elastic-asr.ipynb
-│ ├── load-elastic-ocr.ipynb
+│   ├── load-elastic-asr.ipynb
+│   ├── load-elastic-ocr.ipynb
 ├── Scene_text
-│ ├── Detection
-│ ├── Recognition
+│   ├── Detection
+│   ├── Recognition
 ├── .gitignore
 ├── requirements.txt
-
+```
 
 ### Description of Key Folders and Files
 
