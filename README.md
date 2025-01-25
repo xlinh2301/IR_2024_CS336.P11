@@ -23,7 +23,7 @@
       <tr>
         <td>1</td>
         <td>22520775</td>
-        <td>Đỗ Trọng Khánh</td>
+        <td>Nguyễn Xuân Linh</td>
         <td>Nhóm trưởng</td>
       </tr>
       <tr>
@@ -34,7 +34,7 @@
       </tr>
       <tr>
         <td>3</td>
-        <td>225201581</td>
+        <td>22521581</td>
         <td>Nguyễn Thanh Trường</td>
         <td>Thành viên</td>
       </tr>
